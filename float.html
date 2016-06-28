@@ -67,13 +67,19 @@
                                 width: 1 + 3 * Math.random(),
                                 height: 1 + 3 * Math.random()
                             };
-                    this.grid.addWidget($('<div><div class="grid-stack-item-content" /><div/>'),
-                        node.x, node.y, node.width, node.height);
+                    this.grid.addWidget($('<div><div class="grid-stack-item-content"></div><div/>'), node.x, node.y, node.width, node.height);
+                    	console.log("Widget was added at location " + node.x + ", " + node.y + ", " + node.width + ", " + node.height);
                     return false;
                 }.bind(this);
-                $('#add-new-widget').click(this.addNewWidget);
+                
+               	$('#add-new-widget').click(this.addNewWidget);
+
             };
+
+            
         });
+
+
     </script>
 </body>
 </html>
