@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./../node_modules/gridstack/dist/gridstack.css">
+	<link rel="stylesheet" href="responsive_gridStack.css">
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+	<script src="//troolee.github.io/gridstack.js/jquery-ui.min.js"></script>
+	<script src="./../node_modules/gridstack/dist/gridstack.js"></script>
+	<script src="responsive_gridStack.js"></script>
+</head>
+<body>
+
+    <section id="demo" class="darklue">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Drag to rearrange widgets </h2>
+                    <hr class="star-light">
+                    <div>
+                      <a class="btn btn-default" id="save-grid" href="#">Save Grid</a>
+                      <a class="btn btn-default" id="load-grid" href="#">Load Grid</a>
+                      <a class="btn btn-default" id="clear-grid" href="#">Clear Grid</a>
+                    </div>
+                  
+                </div>
+            </div>
+
+            <div class="grid-stack" data-gs-width="12" data-gs-animate="yes">
+                <div class="grid-stack-item" data-gs-x="0" data-gs-y="0" data-gs-width="4" data-gs-height="4"><div class="grid-stack-item-content">1</div></div>
+                <div class="grid-stack-item" data-gs-x="4" data-gs-y="0" data-gs-width="4" data-gs-height="4"><div class="grid-stack-item-content">2</div></div>
+                <div class="grid-stack-item" data-gs-x="8" data-gs-y="0" data-gs-width="4" data-gs-height="2"><div class="grid-stack-item-content">3</div></div>
+                <div class="grid-stack-item" data-gs-x="8" data-gs-y="0" data-gs-width="4" data-gs-height="2"><div class="grid-stack-item-content">4</div></div>
+                <div class="grid-stack-item" data-gs-x="0" data-gs-y="4" data-gs-width="8" data-gs-height="2"><div class="grid-stack-item-content">5</div></div>
+                <div class="grid-stack-item" data-gs-x="0" data-gs-y="6" data-gs-width="8" data-gs-height="2"><div class="grid-stack-item-content">6</div></div>
+                <div class="grid-stack-item" data-gs-x="8" data-gs-y="4" data-gs-width="4" data-gs-height="4"><div class="grid-stack-item-content">7</div></div>
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>

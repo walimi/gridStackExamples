@@ -1,0 +1,19 @@
+.grid-stack-item-content {
+    background: #00a1d3 ;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+
+.grid-stack-item-content .fa {
+    font-size: 64px;
+    display: block;
+    margin: 20px 0 10px;
+}
+
+header a, header a:hover { color: #fff; }
+
+.darklue { background: #fff; color: #00a1d3 ; }
+.darklue hr.star-light::after {
+    background-color: #00a1d3 ;
+}
